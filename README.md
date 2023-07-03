@@ -1,6 +1,6 @@
 # flutter_chatgpt
 
-_This flutter project shows a simple flutter app demo using chatGPT with riverpod state management_.
+_This flutter project shows a simple app demo using chatGPT with riverpod state management_.
 
 Packages Used:
 - chat_gpt_sdk
@@ -9,5 +9,5 @@ Packages Used:
 - fpdart
   
 # Demo
-https://github.com/lyleverythinG/crud_dio/assets/75658617/1120db7e-538d-42da-9fb6-b94bc47598e3
+https://github.com/lyleverythinG/flutter_chatGPT_riverpod/assets/75658617/805c0e9f-a139-475c-80c7-0d1dc87e3869
 
