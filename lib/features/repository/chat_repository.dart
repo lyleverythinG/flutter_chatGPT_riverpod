@@ -12,9 +12,9 @@ final chatRepositoryProvider = Provider(
 class ChatRepository {
   final Ref _ref;
   ChatRepository({required Ref ref}) : _ref = ref;
-  FutureEither<CTResponse?> insertMsgData(String msgTxt) async {
+  FutureEither<CompleteResponse?> insertMsgData(String msgTxt) async {
     try {
-      final request = CompleteText(prompt: msgTxt, model: kTextDavinci3);
+      final request = CompleteText(prompt: msgTxt, model: TextDavinci3Model());
       final response =
           await _ref.read(openAIBuildProvider)!.onCompletion(request: request);
       return right(response);

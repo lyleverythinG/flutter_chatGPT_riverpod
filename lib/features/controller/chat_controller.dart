@@ -9,8 +9,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final openAIBuildProvider = Provider<OpenAI?>(
   (ref) => OpenAI.instance.build(
-      token: 'YOUR_API_KEY', // TODO: Add your own api key.
-      baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 60))),
+    token: 'YOUR_API_KEY', // TODO: Add your own api key.
+  ),
 );
 
 final isLoadingProvider = StateProvider<bool>((ref) => false);

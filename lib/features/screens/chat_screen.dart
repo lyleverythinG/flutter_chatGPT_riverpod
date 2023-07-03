@@ -26,8 +26,6 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
 
   @override
   void dispose() {
-    chatGPT?.close();
-    chatGPT?.genImgClose();
     super.dispose();
   }
 
